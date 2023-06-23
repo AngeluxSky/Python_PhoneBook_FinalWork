@@ -40,6 +40,6 @@ def empty_search(word: str) -> str:
 def remove_contact(name: str) -> str:
     return f'Контакт {name} успешно удален!'
 
-change_confirm = 'У вас есть не сохраненые изменения. Сохранить перед выходом? (y/n)'
+change_confirm = 'Вы уверены что хотите выйти? У вас есть не сохраненые изменения. Сохранить? (y/n)'
 
 goodbay = 'До новых встреч ;)!'
